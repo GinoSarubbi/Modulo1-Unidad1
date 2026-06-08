@@ -9,7 +9,7 @@ Este proyecto consiste en una página web simple creada con **HTML semántico** 
 ## Estructura del proyecto
 
 ```text
-antes-de-react-tarea-gino/
+Modulo1-Unidad1/
 ├── index.html
 ├── css/
 │   └── styles.css
@@ -24,7 +24,7 @@ antes-de-react-tarea-gino/
 
 ```bash
 git clone URL_DEL_REPOSITORIO
-cd antes-de-react-tarea-gino
+cd Modulo1-Unidad1
 ```
 
 ## Cómo abrir la página
@@ -35,7 +35,9 @@ También se puede usar una extensión como **Live Server** en Visual Studio Code
 
 ## Captura de pantalla
 
-![Captura de la página final](screenshots/pagina-final.png)
+## Captura Final la wbe
+<img width="1920" height="919" alt="image" src="https://github.com/user-attachments/assets/9b857d1a-8ccd-4c1a-8c80-e82f03c31575" />
+
 
 ## Características incluidas
 
@@ -55,15 +57,3 @@ También se puede usar una extensión como **Live Server** en Visual Studio Code
 Curso: Antes de React  
 Unidad: Módulo 1 - Unidad 1  
 Año: 2026
-
-## Fuentes y bibliografía
-
-- MDN Web Docs. HTML: HyperText Markup Language. Mozilla Corporation.
-- MDN Web Docs. CSS: Cascading Style Sheets. Mozilla Corporation.
-- WHATWG. HTML Living Standard.
-- Duckett, J. *HTML & CSS: Design and Build Websites*. John Wiley & Sons, 2011.
-- Keith, J. *HTML5 for Web Designers*. A Book Apart, 2010.
-
-## Créditos de imágenes
-
-La imagen utilizada fue creada como ilustración propia en formato SVG para este proyecto.
