@@ -15,8 +15,6 @@ Modulo1-Unidad1/
 │   └── styles.css
 ├── assets/
 │   └── desarrollo-web.svg
-├── screenshots/
-│   └── pagina-final.png
 └── README.md
 ```
 
@@ -34,8 +32,6 @@ Abrir el archivo `index.html` directamente en un navegador web.
 También se puede usar una extensión como **Live Server** en Visual Studio Code.
 
 ## Captura de pantalla
-
-## Captura Final la wbe
 <img width="1920" height="919" alt="image" src="https://github.com/user-attachments/assets/9b857d1a-8ccd-4c1a-8c80-e82f03c31575" />
 
 
