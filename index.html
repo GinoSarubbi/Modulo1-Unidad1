@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antes de React | Frameworks de JavaScript</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <header class="encabezado" id="inicio">
+        <div class="contenedor">
+            <h1>Modulo 1 -  Unidad 1</h1>
+
+            <nav class="navegacion" aria-label="Menú principal">
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#frameworks">Frameworks</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="contenido-principal">
+        <section class="contenedor">
+            <article id="tarjeta" id="frameworks">
+                <div class="tarjeta__contenido">
+                    <h2>Aprendé sobre los frameworks de JavaScript</h2>
+
+                    <p>
+                        En este artículo exploraremos algunos de los frameworks más populares de
+                        <strong>JavaScript</strong>, una herramienta fundamental para crear sitios web
+                        modernos, dinámicos e interactivos.
+                    </p>
+
+                      <div class="tarjeta__imagen">
+                        <img src="./assets/react.png" alt="React Framework uso" class="tarjeta_img">
+                        <img src="./assets/angular.png" alt="React Framework uso" class="tarjeta_img">
+                        <img src="./assets/vue.png" alt="React Framework uso" class="tarjeta_img">
+                      </div>
+                        
+
+                    <h3>Ideas principales</h3>
+                    <p>
+                        React tiene muchas cosas de ventajas, entre ellas la reutilización de componentes, la virtual DOM para mejorar el rendimiento y una gran comunidad de desarrolladores.
+                    </p>
+
+                    <ol class="lista-frameworks">
+                        <li>
+                            <strong>Reutilización de componentes:</strong> permite crear piezas de código reutilizables que pueden ser utilizadas en diferentes partes de la aplicación.
+                        </li>
+                        <li>
+                            <strong>Comunidad activa:</strong> React tiene una gran comunidad de desarrolladores que contribuyen con herramientas, bibliotecas y recursos para facilitar el desarrollo.
+                        </li>
+                    </ol>
+
+                    <h3>Empresas que utilizan React</h3>
+                    <p>
+                        Muchas empresas reconocidas utilizan React para desarrollar sus aplicaciones web, incluyendo Facebook, Instagram, Airbnb, Netflix y WhatsApp.
+                    </p>
+
+                </div>
+            </article>
+
+            <section class="formulario-seccion" id="contacto">
+                <h2>Crea tu Web con React</h2>
+                <p>Completa el formulario para obtener más información sobre cómo puedes utilizar React para crear tu próxima aplicación web.</p>
+
+                <form class="formulario" id="formulario-contacto" action="#" method="post">
+                    <div class="campo">
+                        <label for="nombre">Nombre</label>
+                        <input 
+                            type="text" 
+                            id="nombre" 
+                            name="nombre" 
+                            placeholder="Ingresá tu nombre"
+                            required
+                        >
+                    </div>
+
+                    <div class="campo">
+                        <label for="email">Email</label>
+                        <input 
+                            type="email" 
+                            id="email" 
+                            name="email" 
+                            placeholder="Ingresá tu email"
+                            required
+                        >
+                    </div>
+
+                    <div class="campo">
+                        <label for="framework">Cual es tu framework favorito?</label>
+                        <select id="framework" name="framework" required>
+                            <option value="">Seleccioná una opción</option>
+                            <option value="react">React</option>
+                            <option value="vue">Angular</option>
+                            <option value="angular">Vue</option>
+                        </select>
+                    </div>
+
+                    <button type="submit">Enviar</button>
+                </form>
+            </section>
+        </section>
+    </main>
+
+    <footer class="pie-pagina">
+        <small>Desarrollado por Gino Sarubbi - 2026</small>
+    </footer>
+</body>
+</html>
